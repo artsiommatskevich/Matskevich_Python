@@ -1,0 +1,11 @@
+Given bracket sequence: [((())()(())]]
+
+1. Can this sequence be considered correct?
+No, this sequence in incorrect.
+
+2. If the answer to the previous question is “no”, then what needs to be changed in it to make it correct?
+
+I see 3 possible options here to make things work:
+I. Change the first opening parenthesis to a square bracket for final sequence to look like this: [[(())()(())]];
+II. Leave the outer square brackets intact and change the inner tuples. The corrected sequence would look like this: [(((((())))))];
+III. Remove both the closing square bracket and the first opening parenthesis, leading to the sequence of a following look: [(())()(())].
